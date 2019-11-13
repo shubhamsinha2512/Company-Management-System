@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.insert{
+    display:none;
+    font-family:'san-serif';
+    position:absolute;     
+    background-color: white;  
+    border-radius:10px;
+    width:400px;
+    height:auto;
+    padding:50px;
+    margin:80px 400px;
+    box-shadow: 10px 10px 30px #000000, -10px 10px 30px #000000;
+    z-index: 2;
+}
+
+.ip{
+    margin:10px auto;
+}
+
+.ipfield{
+    border:1px solid #bbbbbb;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+}
+
+.sub{
+    color: white;
+    border:none;
+    background-color: rgb(24, 161, 202);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#ipclosebtn{
+    position:absolute;
+    top:15px;
+    right:20px;
+    cursor: pointer;
+}
+
+.modal{
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animatetop;
+    animation-duration: 0.5s
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }

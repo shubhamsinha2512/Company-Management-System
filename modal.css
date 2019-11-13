@@ -1,0 +1,36 @@
+*{
+    font-family:'verdana','san-serif';
+}
+
+.modal{
+    display:none;
+    font-family:'san-serif';
+    position:absolute;     
+    background-color: white;  
+    border-radius:10px;
+    width:768px;
+    height:auto;
+    padding:50px;
+    margin:80px 250px;
+    box-shadow: 10px 10px 30px #000000, -10px 10px 30px #000000;
+    z-index: 2;
+}
+
+.left-band{
+    background-color:#FD8469;
+    position:absolute;
+    left:0;
+    top:40px;
+    padding:50px 5px;
+}
+
+#closebtn{
+    position:absolute;
+    top:15px;
+    right:20px;
+    cursor: pointer;
+}
+
+.details p{
+    margin:10px 0;
+}
